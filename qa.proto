@@ -1,10 +1,9 @@
 syntax = "proto3";
 
-package qa;
+package qa_long;
 
 message Question {
-    string context = 1;
-    string question = 2;
+    string question = 1;
 }
 
 message Answer {
